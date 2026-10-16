@@ -1,6 +1,7 @@
 ## Olá, eu sou o Henrique 👋
 
 **Desenvolvedor full stack** em São Paulo · PHP/Laravel · Vue.js · React Native
+
 Desde 2023 construo e sustento sistemas de missão crítica para a **Polícia Militar do Estado de São Paulo**, do banco de dados ao deploy. Fora do trabalho, publico apps Android próprios na Google Play.
 
 🇺🇸 *Full stack developer (Laravel, Vue, React Native) building mission-critical public safety systems. Open to remote work.*
@@ -28,12 +29,12 @@ Desde 2023 construo e sustento sistemas de missão crítica para a **Polícia Mi
 
 ### 🛠️ Stack
 
-**Backend:** PHP 8 · Laravel · Livewire · Inertia · APIs REST · filas/Horizon
-**Frontend:** Vue 3 · React · Angular · TypeScript · Tailwind
-**Mobile:** React Native · Expo · publicação na Google Play
-**Dados:** MySQL · MariaDB · SQLite · Redis · SQL avançado
-**DevOps:** Docker · GitHub Actions · Linux · Nginx · Cloudflare Workers
-**IA:** Claude Code com múltiplos agentes · integração com LLMs em produto
+- **Backend:** PHP 8 · Laravel · Livewire · Inertia · APIs REST · filas/Horizon
+- **Frontend:** Vue 3 · React · Angular · TypeScript · Tailwind
+- **Mobile:** React Native · Expo · publicação na Google Play
+- **Dados:** MySQL · MariaDB · SQLite · Redis · SQL avançado
+- **DevOps:** Docker · GitHub Actions · Linux · Nginx · Cloudflare Workers
+- **IA:** Claude Code com múltiplos agentes · integração com LLMs em produto
 
 ### 📫 Contato
 [LinkedIn](https://linkedin.com/in/henriqueporzelt) · henrique.porzeltneto@gmail.com · disponível para PJ ou CLT, remoto
