@@ -9,7 +9,7 @@ Desde 2023 construo e sustento sistemas de missão crítica para a **Polícia Mi
 ---
 
 ### 🏛️ No trabalho: plataforma de gestão operacional da PMESP
-> Código confidencial. Abaixo, o que construí e os resultados.
+> Código confidencial. Abaixo, o que construí e os resultados. **[Ler o case completo →](cases/ecoordop.md)**
 
 - **Migração de legado para VILT** (Vue 3, Inertia, Laravel 12, Tailwind), com mais de 160 commits próprios em uma base de quase 900
 - **Teste de carga com k6:** 450 usuários simultâneos e 29 mil requisições com **0% de erro**; a partir das métricas, escrevi o plano de otimização de performance
@@ -23,8 +23,8 @@ Desde 2023 construo e sustento sistemas de missão crítica para a **Polícia Mi
 | Projeto | O que é | Stack |
 |---|---|---|
 | [**Novo Testamento Sem Anúncios**](https://github.com/Porzelt/nt-sem-anuncios) | App Android offline, sem anúncios e sem nenhuma permissão de rede, em teste fechado na Google Play | React Native · Expo · TypeScript · SQLite |
-| **MPA — Método Porzelt de Aprendizado** *(privado)* | App de estudos para concursos com simulados por assinatura | React Native · Google Play Billing · Cloudflare Workers/R2/KV |
-| **NutriParceiro** *(privado)* | SaaS para nutricionistas: IA lê exames por imagem e gera planos alimentares | Laravel 13 · Sanctum · React Native · API da Anthropic |
+| **MPA — Método Porzelt de Aprendizado** · [case](cases/mpa.md) | App de estudos para concursos com simulados por assinatura | React Native · Google Play Billing · Cloudflare Workers/R2/KV |
+| **NutriParceiro** · [case](cases/nutriparceiro.md) | SaaS para nutricionistas: IA lê exames por imagem e gera planos alimentares | Laravel 13 · Sanctum · React Native · API da Anthropic |
 | [**Nutri Hellen**](https://github.com/Porzelt/Nutri-Hellen-Site) | Site com agendamento de consultas, [em produção](https://nutrihellenfatima.com.br) | Laravel 12 · Livewire · Tailwind v4 · Docker · Coolify |
 
 ### 🛠️ Stack
