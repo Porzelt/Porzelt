@@ -11,12 +11,13 @@ Desde 2023 construo e sustento sistemas de missão crítica para a **Polícia Mi
 ### 🏛️ No trabalho: plataforma de gestão operacional da PMESP
 > Código confidencial. Abaixo, o que construí e os resultados. **[Ler o case completo →](cases/ecoordop.md)**
 
+- **Sistema da operação eleitoral** (VILT): usado por quase **600 unidades**, com painéis de efetivo por escola (**33 mil policiais em 12 mil escolas**)
+- **Operação Verão:** troquei planilhas por um sistema único e reduzi o planejamento anual da operação de **12 para 3 meses**
+- **Sorteio de distribuição de efetivo** (mais de 3 mil policiais): bug corrigido em **48 horas**, antes da abertura das inscrições
+- **Servidor Linux legado** que caía toda semana, estabilizado após meses de diagnóstico sem documentação
 - **Migração de legado para VILT** (Vue 3, Inertia, Laravel 12, Tailwind), com mais de 160 commits próprios em uma base de quase 900
-- **Teste de carga com k6:** 450 usuários simultâneos e 29 mil requisições com **0% de erro**; a partir das métricas, escrevi o plano de otimização de performance
-- **CI/CD com GitHub Actions** e runners self-hosted: desenvolvimento → homologação → produção
-- **Integrações corporativas:** autenticação LDAP, WebService de RH com **failover entre 7 nós** e banco legado Sybase
-- **Monitoramento próprio** de disponibilidade, com alertas e runbook de contingência
-- Filas com Laravel Horizon e Redis, mapas com 14 camadas geográficas (MapLibre), leitura automatizada de PDFs, RBAC e auditoria
+- **Teste de carga com k6:** 450 usuários simultâneos e 29 mil requisições com **0% de erro**
+- **CI/CD com GitHub Actions** e runners self-hosted; integrações com LDAP, WebService de RH com **failover entre 7 nós** e banco legado Sybase; monitoramento próprio com alertas e runbook
 
 ### 📱 Projetos próprios
 
