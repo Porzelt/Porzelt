@@ -24,7 +24,7 @@ Desde 2023 construo e sustento sistemas de missão crítica para a **Polícia Mi
 | Projeto | O que é | Stack |
 |---|---|---|
 | [**Escala Plantão**](https://github.com/Porzelt/escala-plantao) | Gestão de escalas de plantão: distribuição justa com sorteio reprodutível, RBAC por módulo, isolamento por unidade, exportação em fila e auditoria. CI verde, 87,8% de cobertura, k6 com 450 usuários e 0% de erro | Laravel 12 · Inertia · Vue 3 · MariaDB e PostgreSQL · Redis/Horizon · GitHub Actions · k6 |
-| [**Entregador Demo**](https://github.com/Porzelt/entregador-demo) · [demo ao vivo](https://porzelt.github.io/entregador-demo-web/) | Protótipo de app de entregador (online/offline, pedidos, aceitar e recusar, status da entrega, histórico). Dados simulados, camadas separadas e 13 testes unitários | React Native · Expo · TypeScript · Jest |
+| **Entregador** · [app](https://github.com/Porzelt/entregador-demo) · [API](https://github.com/Porzelt/entregador-api) · [demo ao vivo](https://porzelt.github.io/entregador-demo-web/) | Produto de portfólio em dois repositórios: app de entregador (online/offline, pedidos, aceitar e recusar, status da entrega, histórico) e a API que guarda as regras e os dados. Dados simulados, 23 testes no app e 30 na API (19 unitários e 11 e2e contra PostgreSQL) | React Native · Expo · NestJS · TypeScript · PostgreSQL · JWT · Swagger · Docker |
 | [**Novo Testamento Sem Anúncios**](https://github.com/Porzelt/nt-sem-anuncios) | App Android offline, sem anúncios e sem nenhuma permissão de rede, em teste fechado na Google Play | React Native · Expo · TypeScript · SQLite |
 | **MPA — Método Porzelt de Aprendizado** · [case](cases/mpa.md) | App de estudos para concursos com simulados por assinatura | React Native · Google Play Billing · Cloudflare Workers/R2/KV |
 | **NutriParceiro** · [case](cases/nutriparceiro.md) | SaaS para nutricionistas: IA lê exames por imagem e gera planos alimentares | Laravel 13 · Sanctum · React Native · API da Anthropic |
@@ -32,7 +32,7 @@ Desde 2023 construo e sustento sistemas de missão crítica para a **Polícia Mi
 
 ### 🛠️ Stack
 
-- **Backend:** PHP 8 · Laravel · Livewire · Inertia · APIs REST · filas/Horizon
+- **Backend:** PHP 8 · Laravel · Livewire · Inertia · APIs REST · filas/Horizon · NestJS (projeto próprio)
 - **Frontend:** Vue 3 · React · Angular · TypeScript · Tailwind
 - **Mobile:** React Native · Expo · publicação na Google Play
 - **Dados:** MySQL · MariaDB · PostgreSQL · SQLite · Redis · SQL avançado
